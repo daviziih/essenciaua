@@ -1,0 +1,297 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.section {
+  width: 90%;
+  padding: 50px;
+}
+
+.logo {
+  font: 700 36px 'Poppins', sans-serif;
+  color: #199ae6;
+  text-decoration: none;
+}
+
+.logo span {
+  color: black;
+}
+
+.title {
+  text-align: center;
+  font: 700 38px 'Dm Sans', sans-serif;
+}
+
+.subtitle {
+  text-align: center;
+  font: 400 30px 'Patrick Hand', sans-serif;
+}
+
+:root {
+  --font-color: black;
+  --font-color2: green;
+  --button-color: rgb(255, 128, 64);
+  --font-button-color: black;
+}
+
+header,
+header.rolagem {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 12px rgb(143, 142, 142);
+  height: 8vh;
+  background: white;
+}
+
+header .navlist,
+header.rolagem {
+  display: flex;
+  text-align: center;
+}
+
+header .navtext,
+header.rolagem {
+  font: 500 18px 'Roboto', sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  color: var(--font-color);
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  border-radius: 6px;
+  border: none;
+  font: 300 18px 'Patrick Hand', sans-serif;
+  color: var(--font-button-color);
+  background-color: var(--button-color);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#info .texts {
+  display: flex;
+  justify-content: space-between;
+  color: var(--font-color);
+}
+
+#info i {
+  font-size: 30px;
+}
+
+#info span {
+  font: 300 30px 'Patrick Hand', sans-serif;
+}
+
+#about .content {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+
+#about img {
+  width: 500px;
+  border-radius: 6px;
+}
+
+#about .text {
+  margin-top: 70px;
+  font: 300 22px 'Dm Sans', sans-serif;
+  width: 500px;
+  text-align: center;
+}
+
+#about .button {
+  margin-top: 10px;
+}
+
+#releases .images {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#releases .price {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+#releases figure:hover .price {
+  display: none;
+}
+
+#releases figure {
+  margin: 50px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+  padding: 36px 30px;
+}
+
+#releases .text {
+  margin-top: 10px;
+}
+
+#releases .button {
+  margin-top: 6px;
+  display: none;
+}
+
+#releases figure:hover .button {
+  display: block;
+}
+
+#releases figure:hover p1 {
+  display: none;
+}
+
+#releases figure:hover {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
+  border-bottom: 0.25rem solid var(--base-color);
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+#releases .text {
+  text-align: center;
+  color: var(--font-color2);
+}
+
+#satisfaction .bars {
+  text-align: left;
+}
+
+#satisfaction .bar {
+  width: 300px;
+  height: 16px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#satisfaction .bar2 {
+  height: 100%;
+  width: 10%;
+  border-radius: 10px;
+  background-color: #60b4c8;
+}
+
+#contact {
+  display: flex;
+}
+
+#contact h1 {
+  font: 700 40px 'Dm Sans', sans-serif;
+  width: 360px;
+}
+
+#contact p {
+  font: 300 18px 'Poppins', sans-serif;
+  width: 360px;
+  color: gray;
+  margin-top: 10px;
+}
+
+#contact .button {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 8px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+#contact .button i {
+  margin: 0px;
+  margin-right: 6px;
+  margin-left: 30px;
+}
+
+#contact .button a {
+  margin-left: 0px;
+}
+
+#contact .others {
+  margin-top: 50px;
+  align-items: center;
+}
+
+#contact .others li {
+  display: flex;
+  align-items: center;
+  font: 300 18px 'Poppins', sans-serif;
+  list-style: none;
+  margin-top: 10px;
+  color: gray;
+}
+
+#contact .others i {
+  color: var(--button-color);
+  font-size: 26px;
+  margin: 0px;
+  margin-right: 6px;
+}
+
+#email {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#email i {
+  font-size: 24px;
+  color: var(--font-color);
+}
+
+#email span {
+  font: 400 34px 'Patrick Hand', sans-serif;
+  color: var(--font-color);
+}
+
+#email .itens {
+  align-items: center;
+}
+
+#email .text {
+  height: 30px;
+  width: 200px;
+  border-radius: 6px;
+  border: none;
+  background-color: lightgrey;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+footer h1 {
+  font: 300 18px 'Poppins', sans-serif;
+}
+
+footer .logo {
+  font: 700 30px 'Poppins', sans-serif;
+  color: #199ae6;
+  text-decoration: none;
+}
+
+footer .logo span {
+  color: white;
+}

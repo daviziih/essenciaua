@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EssenciAU</title>
+
+    <link rel="stylesheet" href="style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@300;700&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shorcut icon" type="image/png" href="assets/img/favicon.png" />
+  </head>
+
+  <body>
+    <header id="header">
+      <a class="logo" href="#">Essenci<span>AU</span></a>
+      <ul class="navlist">
+        <li>
+          <a class="navtext" href="#">Inicio</a>
+        </li>
+        <li>
+          <a class="navtext" href="#about">Sobre</a>
+        </li>
+        <li>
+          <a class="navtext" href="#releases">Produtos</a>
+        </li>
+        <li>
+          <a class="navtext" href="#contact">Onde Estamos</a>
+        </li>
+        <li>
+          <a class="navtext" href="#contact" target="center">Contato</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../assets/banner/3.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/banner/3.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/banner/3.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <section class="section" id="info">
+        <div class="texts">
+          <i class="icon-truck"><span> Entregamos para todo Brasil</span></i>
+          <i class="icon-credit-card"
+            ><span> Trabalhamos somente com atacado</span></i
+          >
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="abouts">
+          <h1 class="title">Sobre-nós</h1>
+          <p class="subtitle">Saiba um pouquinho mais sobre nós</p>
+        </div>
+
+        <div class="content">
+          <img src="../assets/img/lavandinha.png" />
+
+          <div class="text">
+            <p>
+              Fundada com a paixão por criar produtos que oferecem conforto e
+              bem-estar, nossa empresa é dedicada a proporcionar uma experiência
+              sensorial única. Cada uma de nossas pelúcias é cuidadosamente
+              confeccionada para não apenas acariciar o coração, mas também
+              cativar os sentidos com fragrâncias delicadamente selecionadas.
+              Combinando a ternura das pelúcias com aromas envolventes, estamos
+              comprometidos em trazer momentos de aconchego e tranquilidade para
+              o seu ambiente. Explore nossa coleção e descubra como podemos
+              tornar os seus espaços ainda mais acolhedores e especiais.
+            </p>
+            <button class="button" href="#contact">Contato</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="releases">
+        <div class="release">
+          <h1 class="title">Lançamentos</h1>
+          <p class="subtitle">Novidades cheias de fofura</p>
+        </div>
+
+        <!-- Upar as imagens em algum site pra colocar no MYSQL -->
+        <div class="images">
+          <figure>
+            <img src="../assets/img/teste.png" />
+            <div class="text">
+              <p>Pelúcia Aromática - Lavandinha</p>
+              <p class="price">R$ 137,61</p>
+            </div>
+            <button class="button">Comprar</button>
+          </figure>
+
+          <figure>
+            <img src="../assets/img/teste.png" />
+            <div class="text">
+              <p>Pelúcia Aromática - Lavandinha</p>
+              <p class="price">R$ 137,61</p>
+            </div>
+            <button class="button">Comprar</button>
+          </figure>
+        </div>
+      </section>
+
+      <!-- <section class="section" id="depositions">
+        <div class="texts">
+          <p class="title">Depoimentos de quem já</p>
+          <p class="title">passou por aqui</p>
+        </div>
+      </section> -->
+
+      <section class="section" id="contact">
+        <div class="texts">
+          <h1>Entre em contato com a gente!</h1>
+          <p>
+            Entre em contato com a gente, queremos tirar suas dúvidas, ouvir
+            suas críticas e sugestões.
+          </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=+5511968128718&amp;text=Olá, tudo bem?"
+            class="button"
+            target="_black"
+          >
+            <i class="icon-whatsapp"></i>Entrar em contato</a
+          >
+        </div>
+        <div class="others">
+          <li><i class="icon-phone"></i>(11) 95875-5643</li>
+          <li>
+            <i class="icon-location"></i>Avenida Doutor José Luis Leme Maciel,
+            236
+          </li>
+          <li><i class="icon-mail"></i>contato@essenciau.com</li>
+        </div>
+      </section>
+
+      <!-- <section class="section" id="satisfaction">
+        <div class="bars">
+          <p>Feedback positivo de nossos clientes</p>
+          <div class="bar">
+            <div class="bar2"></div>
+          </div>
+          <div class="textbar">0% <span>100%</span></div>
+        </div>
+      </section> -->
+
+      <!-- Isso aqui não funciona -->
+      <section class="section" id="email">
+        <i class="icon-mail"><span> Receba Ofertas e Novidades</span></i>
+        <p class="itens">
+          <input class="text" type="text" />
+          <input class="button" type="submit" value="Quero Assinar" />
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <section class="section">
+        <a class="logo" href="#">Essenci<span>AU</span></a>
+        <h1>
+          Feito com ❤️ e HTML | Copyright © 2023 Todos os direitos reservados.
+        </h1>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script/start.js"></script>
+  </body>
+</html>

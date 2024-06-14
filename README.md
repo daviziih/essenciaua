@@ -1,4 +1,4 @@
-##**🚀 Tecnologias**
+## 🚀 Tecnologias
 
 - HTML
 - CSS
